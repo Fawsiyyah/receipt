@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&display=swap');
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+   
+}
+
+
+
+.logo {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.contains {
+       font-size: 24px;
+       font-family: 'Dancing Script', cursive;
+      
+}
+
+input[type="text"], input[type="email"], input[type="password"], select,  input[type="date"] {
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.internal {
+    font-size: 18px;
+}

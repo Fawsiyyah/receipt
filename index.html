@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="contains text-dark">
+    <main class=" container ">
+        <div class="container">
+                <div class="container head text-center py-5">
+                    <img src="img/logo.PNG" class="logo" alt="">
+                    <h3 class="text-danger">Mushmatech Information Technology</h3>
+                    <p>Shop 3, Zulu builder,FLCHE,Oloje,Ilorin,Kwara state</p>
+                    <p class="text-danger">mushmatech@gmail.come</p>
+                    <p>08063135154</p>
+                </div>
+                <hr>
+            
+                <div action="" class=" row text-danger">
+                    <div class="col-lg-6 col-md-4 px-5">
+                      
+                            <label for="name"><b><sup >*</sup>Company name</b></label><br>
+                            <input type="text" placeholder="Company Name" required><br>
+                            <label for="email" class="pt-3"><b><sup >*</sup>Email</b></label><br>
+                            <input type="email" placeholder="Enter your company's email" required><br>
+                            <label for="name5" class="pt-3"><b><sup >*</sup>Document number</b></label><br>
+                            <input type="text" placeholder="Enter your document number" required><br><br> 
+                                           
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-4 px-5">
+                        <label for="addr"><b><sup >*</sup>Address</b></label><br>
+                        <input type="text" placeholder="Enter your company's address" required><br>
+                        <label for="num" class="pt-3"><b><sup >*</sup>Phone number</b></label><br>
+                        <input type="text" placeholder="Enter your company's phone number" required><br>
+                        <label for="text" class="pt-3"><b><sup >*</sup>Billing Date</b></label><br>
+                        <input type="date" placeholder="Enter your billing date" required><br>
+                    </div>
+                <hr/>
+                    <div class="row container">
+                        <h3 class="text-center text-dark mt-5"><b>Receipt settings</b></h3>
+                        <div class="col-lg-6">
+                            <label for="name" class="pt-3"><b><sup >*</sup>Title</b></label><br>
+                            <input type="text" placeholder="Enter the title of the receipt" required><br>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="lastName" class="pt-3"><b><sup >*</sup>Currency</b></label><br>
+                                <select name="" id="">
+                                    <option value="">Select your Currency type</option>
+                                    <option value="">Naira</option>
+                                    <option value="">Dollars</option>
+                                    <option value="">Others</option>
+                                </select>
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="name2" class="pt-3"><b><sup >*</sup>Discount</b></label><br>
+                            <input type="text" placeholder="" required><br>
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="name3" class="pt-3"><b><sup >*</sup>Tax</b></label><br>
+                            <input type="text" placeholder="" required><br>
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="lastName" class="pt-3"><b><sup >*</sup>Font Family</b></label><br>
+                            <select name="" id="">
+                                <option value="">Select your Font type</option>
+                                <option value="">Roboto</option>
+                                <option value="">San serif</option>
+                                <option value="">Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        
+        <form class=" container px-5 mt-5">
+            <hr >               
+                <div class="row text-danger  internal">
+                    <div class="col-lg-3">
+                        <label for="name"><b><sup >*</sup>Item</b></label><br>
+                        <input type="text" placeholder="" required><br>
+                     </div>
+                     <div class="col-lg-3 ">
+                        <label for="name"><b><sup >*</sup>Quantity</b></label><br>
+                        <input type="text" placeholder="" required><br>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="name"><b><sup >*</sup>Unit price</b></label><br>
+                        <input type="text" placeholder="" required>
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="name" ><b>Amount</b></label><br>
+                        <h3>#60000.00</h3>
+                    </div>
+                    <div class="col-lg-3 py-3">
+                        <input type="file" placeholder="Add an item" required>            
+                    </div>
+                </div>
+                <hr>
+           <div class="row py-5">
+            <div class="border ">
+                <p class="p-3 text-danger">This is a receipt for the maintenance fee from 1st of March,2022 to 31st of August 2022 (6 months).</p>
+            </div>
+            
+           </div>
+        </form>
+        <div class="d-flex justify-content-center align-items-center pb-5">
+            <button class="rounded-pill bg-dark  px-5 align-items-center"><a href="receipt.html" class="text-decoration-none text-light"> Generate Receipt</a>   </button>
+        </div>
+    </main>
+    
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
